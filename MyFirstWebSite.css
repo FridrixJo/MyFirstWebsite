@@ -1,6 +1,13 @@
 header{
     background: url(img/first-bg.jpg) no-repeat center top / cover;
-    height: 600px;
+    height: 735px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
 }
 
 div{
@@ -11,6 +18,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    color: #222222;
 }
 
 .container{
@@ -25,6 +33,7 @@ body{
 
 nav{
     float : right;
+    margin-top: 45px;
 }
 
 .menu{
@@ -44,4 +53,86 @@ nav{
     color : #fff;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.titles_first{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 191px;
+
+}
+
+h1{
+    font-size: 75px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+.button{
+    background-color: #fed136;
+    color : #484543;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 240px;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+.title{
+    padding-top: 115px;
+    
+}
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title p{
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.servises{
+    margin-top: 80px;
+}
+
+.servises_item{
+    width: 270px;
+    float: left;
+    text-align: center;
+
+}
+
+.servises_item h3 {
+     font-size: 18px;
+     margin-bottom: 10px;
+}
+
+.servises_item p{
+     color: #777777;
+     font-size: 14px;
+     line-height: 1.55em;
+}
+
+.servises_item:nth-child(3) {
+    float: right;
+}
+
+.servises_item:nth-child(2) {
+    margin-left : 60px;
 }
