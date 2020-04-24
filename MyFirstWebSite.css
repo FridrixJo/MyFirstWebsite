@@ -109,6 +109,7 @@ h1{
 
 .servises{
     margin-top: 80px;
+    padding-bottom: 120px;
 }
 
 .servises_item{
@@ -136,3 +137,102 @@ h1{
 .servises_item:nth-child(2) {
     margin-left : 60px;
 }
+
+#portfolio{
+    background : #f7f7f7;
+    height: 700px;
+}
+
+.photo {
+    float: left;
+    margin-top: 80px;
+    
+}
+
+.photo_item:nth-child(3) {
+    margin-left: 35px;
+}
+
+.photo_item:nth-child(2) {
+    margin-left : 35px;
+}
+
+.photo_item{
+    width: 270px;
+}
+
+.about{
+    padding-bottom: 1240px;
+}
+.about_item p{
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.55em;
+}
+
+.about_item_micro h3 {
+    font-size: 18px;
+}
+
+
+.about_item_micro{
+     width: 300px;
+     float: left;
+     margin-left: 40px ;
+     text-align: right;
+}   
+.about_item{
+    float: left;
+    margin-top: 70px;
+}
+
+.about_first{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform : uppercase;
+}
+
+.about_img{
+    margin-left: 40px;
+}
+
+.about_item2 p{
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.55em;
+}
+
+.about_item_micro2 h3 {
+    font-size: 18px;
+}
+
+
+.about_item_micro2{
+     width: 300px;
+     float: right;
+     
+     text-align: left;
+}   
+.about_item2{
+    float: right;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+
+.about_first2{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform : uppercase;
+}
+
+.about_img2{
+    margin-right: 40px;
+}
+
+.footer{
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    padding-bottom: 130px;
+}
+
